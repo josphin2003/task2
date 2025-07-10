@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Libertinus Math", system-ui;
+}
+#container{
+    width: 110%;
+    height: 850vh;
+    position: relative;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      padding: 1.3rem 10%;
+      border-color: blue;
+  
+   
+   
+}
+.logo{
+    width: 100px;
+}
+.list-item{
+   list-style: none;
+   display: inline;
+margin: 0px 20px;
+}
+.links{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.links:hover{
+    text-decoration: underline;
+    color: red;
+}
+.home-content{
+    margin-left: 450px;
+    margin-top: 50px;
+    
+}
+
+
+#username{
+    font-size: 50px;
+    font-family:"Manufacturing Consent", system-ui;
+    font-weight: 600;
+    color: white;
+}
+#lname{
+     color: red;
+     font-family: "Manufacturing Consent", system-ui;
+     font-weight: 600;
+}
+#user-details{
+    color: white;
+    line-height: 1.5;
+}
+#download{
+   text-decoration: none;
+   background-color: whitesmoke;
+   color: black;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 10px;
+   display: inline-block;    
+    
+}
+.home-img{
+    width: 35%;
+    height: 6%;
+    position: absolute;
+
+    bottom:0px;
+    left: 30px;
+     top: 210px;
+    
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+   
+    transform: translatex(-50%);
+    transition: bottom 2s, left 1s;
+}
+.home-img:hover #shape{
+    bottom: 30px;
+}
+.home-img:hover #profile{
+    left: 30%;
+}
+#About{
+    
+    margin-top: 100px;
+   
+    align-items: center;
+    
+}
+.sectionHead{
+    margin-top: 150px;
+    text-align: center;
+}
+.mainhead{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.subhead{
+   color: red;
+   font-weight: 600;  
+   font-size: 20px;
+}
+.aboutbody{
+   margin-top: 50px;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   align-items: center;
+   gap: 50px;
+}
+.img1{
+    width: 65%;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+    padding-left: 100px;
+    
+}
+.aboutcontent{
+    color: white;
+   line-height: 1.5;
+   font-size: 15px;
+   font-weight: 500;
+   text-align: justify;
+}
+.information{
+    margin-top: 18px;
+}
+.info>span{
+
+    margin-left: 16px;
+}
+#skills{
+
+      margin-top: 100px;
+      
+}
+    
+
+    
+
+.skillcontent{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 90px;
+  
+}
+.progressbar{
+    margin-top: 52px;
+}
+.bars{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+}
+.barhead, .barpercent{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.Mongobar{
+    background-color: green;
+    width: 95%;
+}
+.Expressbar{
+    background-color: green;
+    width: 85%;
+}
+.Angularbar{
+    background-color: green;
+    width: 85%;
+}
+.Reactbar{
+    background-color: green;
+    width: 85%;
+}
+.Nodebar{
+    background-color: green;
+    width: 85%;
+}
+.img2{
+    width: 500px;
+    padding-top: 20px;
+    padding-left: 90px;
+    margin-top: 50px;
+}
+#Contact{
+   margin-top: 200px;
+}
+.icon-collection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+}
+.icon{
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0px 20px;
+}
+.brands{
+    color: white;
+    font-size: 20px;
+}
+.icon:hover{
+    background-image: linear-gradient(red,black);
+}
+.icon:hover .brands{
+    color: black;
+    animation: rotate 3s ;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+footer{
+    margin-top: 16%;
+}
+#copyright{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.uparrow{
+    float: right;
+    margin-top:-35px ;
+    margin-left: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 6px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color:whitesmoke;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+@media(max-width:768px){
+p{ 
+       font-size: 1.0rem;
+       line-height: 1.0;
+}
+.img1{
+    flex-wrap: nowrap;
+}
+}
