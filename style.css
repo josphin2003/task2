@@ -38,14 +38,14 @@ margin: 0px 20px;
     color: red;
 }
 .home-content{
-    margin-left: 450px;
+    margin-left: 650px;
     margin-top: 50px;
     
 }
 
 
 #username{
-    font-size: 50px;
+    font-size: 80px;
     font-family:"Manufacturing Consent", system-ui;
     font-weight: 600;
     color: white;
@@ -53,11 +53,13 @@ margin: 0px 20px;
 #lname{
      color: red;
      font-family: "Manufacturing Consent", system-ui;
-     font-weight: 600;
+          font-weight: 600;
 }
 #user-details{
     color: white;
     line-height: 1.5;
+    font-weight: 600;
+    font-size: 20px;
 }
 #download{
    text-decoration: none;
@@ -96,7 +98,7 @@ margin: 0px 20px;
 }
 #About{
     
-    margin-top: 100px;
+    margin-top: 300px;
    
     align-items: center;
     
@@ -134,8 +136,8 @@ margin: 0px 20px;
 .aboutcontent{
     color: white;
    line-height: 1.5;
-   font-size: 15px;
-   font-weight: 500;
+   font-size: 20px;
+   font-weight: 600;
    text-align: justify;
 }
 .information{
@@ -176,8 +178,8 @@ margin: 0px 20px;
 }
 .barhead, .barpercent{
     color: white;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 600;
 
 }
 .basebar{
@@ -231,7 +233,7 @@ margin: 0px 20px;
    display: flex;
    justify-content: center;
    align-items: center;
-   margin: 0px 20px;
+   margin: 0px 50px;
 }
 .brands{
     color: white;
